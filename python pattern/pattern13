@@ -1,0 +1,19 @@
+import math 
+from  turtle import *
+import colorsys as cs   
+
+tracer(10)
+bgcolor('black')
+pensize(3)
+pencolor('aqua')
+h = 0.6
+
+for i in range(600):
+    c = cs.hsv_to_rgb(h, 1, 1)
+    t=i/20
+    x=10 * (math.sin(2*t) **3)
+    y=10 * (math.cos(3*t) **3)
+    goto(x*15, y*15)
+    h += 1 / 2
+    goto(x*15, y*15)
+done()

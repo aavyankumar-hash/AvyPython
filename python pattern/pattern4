@@ -1,0 +1,12 @@
+from turtle import * 
+
+speed(0)
+h = 0 
+for i in range(16):
+  for j in range(18):
+      h+=0.005
+      rt(111)
+      circle(150 - j * 11, 90)
+      lt(111)
+      circle(150 - j * 11, 90)
+      rt(111)

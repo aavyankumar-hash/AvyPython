@@ -1,0 +1,22 @@
+import turtle
+
+t = turtle.Turtle()
+
+screen = turtle.Screen()
+
+screen.bgcolor("black")
+t.setposition(-60, 0)
+t.speed(0)
+colors = ['purple', 'blue']
+t.pensize(2)
+for i in range(150):
+      t.color(colors[i % 2])
+      t.rt(i)
+      t.circle(90,i)
+      t.up()
+      t.fd(i+50)
+      t.down()
+      t.rt(90)
+      t.fd(i-65)
+      t.hideturtle()
+    
