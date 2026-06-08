@@ -1,0 +1,10 @@
+number1=int(input("input a number"))
+number2=int(input("input a number"))
+number3=int(input("input a number"))
+print("sequence option1",number1,number2,number3)
+number1=number2 
+print("sequence option2",number1,number2,number3)
+number2=number3 
+print("sequence option3",number1,number2,number3)
+number3=number1
+print("sequence option4",number1,number2,number3)
