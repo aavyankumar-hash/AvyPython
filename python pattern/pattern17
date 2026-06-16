@@ -1,0 +1,58 @@
+import turtle 
+p=turtle.Turtle()
+p.pencolor("black")
+p.pensize(8)
+p.hideturtle()
+wn=turtle,turtle.Screen()
+p.left(13)
+p.fillcolor("yellow")
+p.begin_fill()
+p.penup()
+p.forward(100)
+p.pendown()
+
+def curve01(a,d):
+    for i in range(d):
+        p.right(a)
+        p.forward(1)
+
+
+def curve02(a,d):
+    for i in range(d):
+        p.left(a)
+        p.forward(1)
+p.right(25)
+p.forward(60)
+p.left(135)
+p.right(95)        
+p.forward(95)
+p.left(135)
+p.forward(145)
+p.right(112)
+p.forward(115)
+p.left(137)
+p.forward(130)
+p.left(130)
+p.forward(142)
+p.right(110)
+p.forward(120)
+p.left(130)
+p.forward(142)
+p.right(110)
+p.forward(120)
+p.left(130)
+p.forward(110)
+p.left(136)
+p.forward(60)
+p.pensize(3)
+p.forward(15)
+
+curve01(1,50)
+p.forward(15)
+
+p.left(90)
+
+
+
+
+turtle.done()
