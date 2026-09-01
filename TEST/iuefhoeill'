@@ -1,0 +1,19 @@
+guess = int(input("enter your first guess out of five"))
+
+hearts = 5
+
+
+awnser = 33
+
+if awnser >=33:
+    print("four more tries")
+elif awnser <=33:
+    print("four more tries")
+while hearts <= 5 == True:
+    if awnser >=33:
+        print("four more tries")
+    elif awnser <=33:
+        print("four more tries")
+
+
+
