@@ -2,7 +2,6 @@ def greet_customer():
  print('welcome to the lemonade stand')
  print('fresh jfjfjfjdkjdkdkfj made just for you')
 
-
 greet_customer()
 
 price_per_cup = float(input('888yw8y8y88w8fy8wf8ywf8ffw8wfwgf8yy'))
