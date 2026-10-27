@@ -1,0 +1,15 @@
+import random 
+playing = True 
+number = str(random.randint(0,9))
+print("asdfghjthiuierhnru8thtbn")
+print("asdfghjthiuierhnru8thtbn")
+ 
+while playing:
+    guess = input("thisis i3333333333333333333333333333")
+    if number == guess:
+        print("you win the game")
+        print("the number was:",number)
+        break
+    
+    else:
+        print("your guess isn't quite right, try again ")
